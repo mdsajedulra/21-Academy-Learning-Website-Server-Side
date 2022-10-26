@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "5015",
+        "category_id": "01",
+        "rating": {
+            "number": 4.5
+        },
+        "total_enrollment": 488,
+        "price": "21.99",
+        "title": "Javascript for Beginners",
+        "instructor": {
+            "name": "Sajedul",
+            "img": "authorimage"
+        },
+        "thumbnail_url": "",
+        "details": "Learn javascript online and supercharge your web design with this Javascript for beginners training course."
+    },
+]

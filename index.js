@@ -9,6 +9,12 @@ const categories = require('./data/Categories.json')
 const checkout = require('./data/checkoutAPI.json')
 
 
+app.get('/', (req, res) => {
+    res.send('Api is running')
+})
+app.get('/courses', (req, res) => {
+    res.send(courses)
+})
 
 app.listen(port, () => {
     console.log(`example ${port}`)
